@@ -1,1 +1,94 @@
-var _0xb4f65f = _0x1b59; (function (_0x12a6b8, _0x53f004) { var _0x29ef40 = _0x1b59, _0x4866ee = _0x12a6b8(); while (!![]) { try { var _0x10d1e9 = -parseInt(_0x29ef40(0xfc)) / 0x1 + -parseInt(_0x29ef40(0xe1)) / 0x2 + -parseInt(_0x29ef40(0xef)) / 0x3 * (-parseInt(_0x29ef40(0xd8)) / 0x4) + -parseInt(_0x29ef40(0xe0)) / 0x5 + parseInt(_0x29ef40(0xdd)) / 0x6 + parseInt(_0x29ef40(0xe3)) / 0x7 * (-parseInt(_0x29ef40(0xfb)) / 0x8) + parseInt(_0x29ef40(0xcb)) / 0x9; if (_0x10d1e9 === _0x53f004) break; else _0x4866ee['push'](_0x4866ee['shift']()); } catch (_0xd50c13) { _0x4866ee['push'](_0x4866ee['shift']()); } } }(_0x61a5, 0xb9990)); const load = document[_0xb4f65f(0xdf)](_0xb4f65f(0xe7)); window[_0xb4f65f(0xf7)](_0xb4f65f(0xe7), function () { var _0x4653b3 = _0xb4f65f; load[_0x4653b3(0xfe)]['display'] = _0x4653b3(0xd5), console['log'](_0x4653b3(0xed)); }), $(document)[_0xb4f65f(0xee)](function () { var _0x4b1dd8 = _0xb4f65f; $(_0x4b1dd8(0xf1))['counterUp']({ 'delay': 0xf, 'time': 0x4b0 }); }); let toTop = document[_0xb4f65f(0xea)](_0xb4f65f(0xd0)); function _0x61a5() { var _0x3670dd = ['Message\x20cannot\x20be\x20empty', 'Please\x20enter\x20a\x20valid\x20email\x20address', '.back-to-top', 'scroll', 'add', 'Contact\x20number\x20cannot\x20be\x20empty', 'value', 'none', 'pageYOffset', 'dark-Theme', '42652tXOesM', 'Please\x20select\x20a\x20course', 'courses', 'onsubmit', '.navbar', '8947212zWGkik', 'City\x20cannot\x20be\x20empty', 'getElementById', '2266615bXfYoF', '634398hnELOz', 'remove', '49EUMKxN', 'Message\x20Should\x20Be\x2010\x20Character..!', 'Address\x20cannot\x20be\x20empty', 'address', 'load', 'length', 'Choose\x20Your\x20Course', 'querySelector', 'email', 'focus', 'Page\x20loaded', 'ready', '84oIckTn', 'name', '.counter', 'trim', 'input[name=\x27Gender\x27]', 'navbar-sticky', 'Name\x20cannot\x20be\x20empty', 'checked', 'addEventListener', 'toggle', 'Please\x20select\x20a\x20gender', 'Email\x20cannot\x20be\x20empty', '957936pCOtbd', '1481447pzmiLI', 'body', 'style', '18545445YwyVbB', 'classList', 'onclick']; _0x61a5 = function () { return _0x3670dd; }; return _0x61a5(); } window[_0xb4f65f(0xf7)](_0xb4f65f(0xd1), () => { var _0x544daa = _0xb4f65f; window['pageYOffset'] > 0x1f4 ? toTop[_0x544daa(0xcc)][_0x544daa(0xd2)]('on') : toTop['classList'][_0x544daa(0xe2)]('on'); }); var icon = document[_0xb4f65f(0xdf)]('dark'); function _0x1b59(_0x3c3743, _0x26589e) { var _0x61a509 = _0x61a5(); return _0x1b59 = function (_0x1b5969, _0x59df97) { _0x1b5969 = _0x1b5969 - 0xcb; var _0x3683e3 = _0x61a509[_0x1b5969]; return _0x3683e3; }, _0x1b59(_0x3c3743, _0x26589e); } icon[_0xb4f65f(0xcd)] = function () { var _0x29872a = _0xb4f65f; document[_0x29872a(0xfd)][_0x29872a(0xcc)][_0x29872a(0xf8)](_0x29872a(0xd7)); }; let Navbar = document[_0xb4f65f(0xea)](_0xb4f65f(0xdc)); window[_0xb4f65f(0xf7)](_0xb4f65f(0xd1), function () { var _0x3d7564 = _0xb4f65f; window[_0x3d7564(0xd6)] > 0x32 ? Navbar[_0x3d7564(0xcc)][_0x3d7564(0xd2)]('navbar-sticky') : Navbar[_0x3d7564(0xcc)][_0x3d7564(0xe2)](_0x3d7564(0xf4)); }); function validateForm() { var _0x18b302 = _0xb4f65f, _0x1edc99 = document[_0x18b302(0xdf)](_0x18b302(0xf0)), _0x190642 = document[_0x18b302(0xdf)](_0x18b302(0xeb)), _0x4ee23b = document[_0x18b302(0xdf)](_0x18b302(0xe6)), _0x838378 = document[_0x18b302(0xdf)]('city'), _0x53e223 = document['getElementById'](_0x18b302(0xda)), _0x59c1a3 = document['querySelectorAll'](_0x18b302(0xf3)), _0x1ca06a = document[_0x18b302(0xdf)]('number'), _0x29cd3b = document[_0x18b302(0xdf)]('massage'); if (_0x1edc99[_0x18b302(0xd4)][_0x18b302(0xf2)]() === '') return alert(_0x18b302(0xf5)), _0x1edc99['focus'](), ![]; if (_0x190642[_0x18b302(0xd4)]['trim']() === '') return alert(_0x18b302(0xfa)), _0x190642[_0x18b302(0xec)](), ![]; var _0x3984ab = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; if (!_0x3984ab['test'](_0x190642['value']['trim']())) return alert(_0x18b302(0xcf)), _0x190642['focus'](), ![]; if (_0x4ee23b[_0x18b302(0xd4)]['trim']() === '') return alert(_0x18b302(0xe5)), _0x4ee23b[_0x18b302(0xec)](), ![]; if (_0x838378[_0x18b302(0xd4)]['trim']() === '') return alert(_0x18b302(0xde)), _0x838378[_0x18b302(0xec)](), ![]; if (_0x53e223[_0x18b302(0xd4)] === _0x18b302(0xe9)) return alert(_0x18b302(0xd9)), _0x53e223[_0x18b302(0xec)](), ![]; var _0x450535 = ![]; for (var _0x1f667f = 0x0; _0x1f667f < _0x59c1a3[_0x18b302(0xe8)]; _0x1f667f++) { if (_0x59c1a3[_0x1f667f][_0x18b302(0xf6)]) { _0x450535 = !![]; break; } } if (!_0x450535) return alert(_0x18b302(0xf9)), ![]; if (_0x1ca06a[_0x18b302(0xd4)][_0x18b302(0xf2)]() === '') return alert(_0x18b302(0xd3)), _0x1ca06a[_0x18b302(0xec)](), ![]; if (_0x29cd3b[_0x18b302(0xd4)][_0x18b302(0xf2)]() === '') return alert(_0x18b302(0xce)), _0x29cd3b[_0x18b302(0xec)](), ![]; if (_0x29cd3b[_0x18b302(0xe8)] < 0xa) return alert(_0x18b302(0xe4)), _0x29cd3b[_0x18b302(0xec)](), ![]; return !![]; } var form = document[_0xb4f65f(0xdf)]('myform'); form[_0xb4f65f(0xdb)] = validateForm;
+// animated Counter Number ++++++++++++++++++++++++++++++++++++++++++++++
+
+$(document).ready(function () {
+  $(".counter").counterUp({
+    delay: 10,
+    time: 1200,
+  });
+});
+
+// back to top  ++++++++++++++++++++++++++++++++++++++++++++++
+
+let toTop = document.querySelector('.back-to-top');
+
+window.addEventListener("scroll", function () {
+  if (window.pageYOffset > 500) {
+    toTop.classList.add("on");
+  } else {
+    toTop.classList.remove("on");
+  }
+});
+
+let Mode = document.querySelector('.mode');
+
+window.addEventListener("scroll", function () {
+  if (window.pageYOffset > 500) {
+    toTop.classList.add("on");
+    Mode.style.opacity = "1";
+    Mode.style.pointerEvents = "auto";
+  } else {
+    toTop.classList.remove("on");
+    Mode.style.opacity = "0";
+    Mode.style.pointerEvents = "none";
+  }
+});
+
+
+// Preloader  ++++++++++++++++++++++++++++++++++++++++++++++
+
+const load = document.getElementById("load");
+
+window.addEventListener("load", function () {
+  load.style.display = "none";
+  console.log("Page loaded"); // Logging a message
+});
+
+
+// Form Validation  ++++++++++++++++++++++++++++++++++++++++++++++
+
+function validateForm() {
+  // Get form elements
+  var nameInput = document.getElementById("name");
+  var emailInput = document.getElementById("email");
+
+  // Get the values of the inputs
+  var name = nameInput.value.trim();
+  var email = emailInput.value.trim();
+
+  // Check if name is empty
+  if (name === "") {
+    alert("Name cannot be empty");
+    nameInput.focus();
+    return false;
+  }
+
+  // Check if email is empty
+  if (email === "") {
+    alert("Email cannot be empty");
+    emailInput.focus();
+    return false;
+  }
+
+  // Check if email is valid using a simple regular expression
+  var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address");
+    emailInput.focus();
+    return false;
+  }
+
+  // If all validations pass, the form is valid
+  return true;
+}
+
+// Attach the validation function to the form's submit event
+var form = document.getElementById("myForm");
+form.onsubmit = validateForm;
+
+
+// Dark Mode  ++++++++++++++++++++++++++++++++++++++++++++++
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-Theme");
+}
