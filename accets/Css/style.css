@@ -41,13 +41,10 @@ html {
     color: white;
 }
 
-/* ::-webkit-scrollbar {
-    display: none;
-} */
 
 /* PRELOADER */
 
-.preloder {
+.preloader {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -55,7 +52,7 @@ html {
     height: 100vh;
     width: 100%;
     background-color: white;
-    z-index: 2;
+    z-index: 99;
 }
 
 .preloder body {
@@ -155,7 +152,7 @@ html {
 ========================================
 */
 
-.dark-mode {
+.dark-mode-button {
     position: absolute;
     bottom: 75px;
     left: 15px;
@@ -227,45 +224,6 @@ body {
 .buttonClass:hover {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.184);
     background: var(--hover);
-}
-
-/* 
-========================================
-        NavBar Sticky Design
-========================================
-*/
-
-.navbar-sticky {
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background-color: var(--primary);
-    top: 0;
-}
-
-.navbar-sticky .active {
-    color: var(--background) !important;
-}
-
-.navbar-sticky .active::before {
-    background-color: var(--background);
-}
-
-.navbar-sticky .navbar-brand {
-    color: var(--background);
-}
-
-.navbar-sticky .navbar-brand span {
-    filter: invert(1);
-}
-
-.navbar-sticky .nav-link {
-    color: var(--background);
-}
-
-svg.svg-inline--fa.fa-bars {
-    color: var(--primary);
-    font-size: 1.7rem;
 }
 
 /* 
@@ -736,15 +694,15 @@ svg.svg-inline--fa.fa-star-half-stroke {
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--primary);
-    position: relative;
+    /* position: relative; */
 }
 
-.pricing-tag::after {
+/* .pricing-tag::after {
     content: "$";
     position: absolute;
     left: 116px;
     top: 1px;
-}
+} */
 
 /* 
 ============================================
@@ -762,7 +720,7 @@ svg.svg-inline--fa.fa-star-half-stroke {
             Subscribe Email Design
 ============================================ 
 */
-
+/* 
 .sub-bg {
     background-color: var(--hover);
     width: 100%;
@@ -814,7 +772,7 @@ svg.svg-inline--fa.fa-star-half-stroke {
     color: red;
     font-size: 1.1rem;
     font-weight: 600;
-}
+} */
 
 /* 
 *************************************************************************************
@@ -823,7 +781,7 @@ svg.svg-inline--fa.fa-star-half-stroke {
 */
 
 .Contact {
-    background: linear-gradient(45deg, #6e084cae, #030926ae), url('../Images/JPEG/Contact\ Page\ Background.jpg')no-repeat center;
+    background: linear-gradient(45deg, #6e084cae, #030926ae), url('../Images/JPEG/Contact Page Background.jpg')no-repeat center;
     width: 100%;
     height: 33rem;
     display: flex;
