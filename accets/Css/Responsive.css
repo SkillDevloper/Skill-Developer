@@ -1,0 +1,397 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+
+    .banner-section {
+        height: auto !important;
+    }
+
+    .banner-heading-1 {
+        font-size: 1.9rem !important;
+        line-height: 3rem;
+        text-align: center;
+        padding: 3rem 0 15px 0;
+    }
+
+    .banner-icon {
+        font-size: 1rem !important;
+    }
+
+    .banner-para {
+        font-size: 1rem !important;
+        text-align: justify;
+        margin-left: .5rem !important;
+    }
+
+    .scroll-image {
+        display: none;
+    }
+
+    .popular-courses {
+        height: auto;
+    }
+
+    .popular-heading {
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .popular-para {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .card-design_animation:hover {
+        transform: translate(0, -5px);
+    }
+
+    .card-image {
+        width: 100%;
+    }
+
+    .cards {
+        margin-top: 2rem !important;
+    }
+
+    .card-heading {
+        font-size: 1rem !important;
+    }
+
+    .card-heading {
+        font-size: 1.3rem;
+    }
+
+    .teacher-live-heading {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .on-small {
+        width: 100%;
+    }
+
+    .teacher-live-text {
+        font-size: 1rem !important;
+        margin-top: 2rem;
+    }
+
+    .bg-color-number-counter {
+        font-size: 1.3rem;
+    }
+
+    .number-counter-text {
+        font-size: 1.2rem;
+    }
+
+    .brand-heading {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .brand-para-1,
+    .brand-para-2 {
+        font-size: 1rem;
+    }
+
+    .footer-section {
+        padding: 100px 0;
+    }
+
+    .social_icons {
+        gap: 1rem;
+    }
+
+    .useful {
+        margin-left: 0;
+    }
+
+    .cpr {
+        font-size: .7rem;
+    }
+
+    .active::before {
+        left: 60px;
+        top: 18px;
+    }
+
+    .navbar-sticky {
+        display: none !important;
+    }
+
+    /* HOME PAGE END =============================================== */
+
+    .whySkillDeveloper {
+        height: auto !important;
+    }
+
+    .our-story {
+        font-size: 2.4rem !important;
+        margin: 2rem 0 0 0;
+        letter-spacing: 0 !important;
+    }
+
+    .whySkillDeveloper-heading {
+        font-size: 1.8rem;
+    }
+
+    .card-image {
+        width: 100% !important;
+    }
+
+    .useful {
+        margin-left: 0 !important;
+    }
+
+    .footer-section {
+        padding: 100px 0 !important;
+    }
+
+    .social_icons {
+        gap: 1rem !important;
+    }
+
+    .popular-courses {
+        width: 100%;
+        height: auto !important;
+    }
+
+    /* Courses Page ===================================================================== */
+
+    .pricing-text-heading {
+        font-size: 1.5rem !important;
+    }
+
+    .pricing-heading-para {
+        font-size: 1rem !important;
+        text-align: center;
+    }
+
+    .pricing-tag::after {
+        left: 56px !important;
+    }
+
+    .pricing {
+        margin-top: 1.5rem;
+    }
+
+    .courses-main-heading {
+        font-size: 1.6rem !important;
+    }
+
+    .sub-bg {
+        padding: 20px !important;
+    }
+
+    .subscribe-img {
+        transform: translate(0, 0) !important;
+        width: 100%;
+        margin: 5rem 0;
+    }
+
+    .Subscribe-heading {
+        text-align: center;
+        font-size: 1.5rem !important;
+        line-height: 3rem !important;
+    }
+
+    .subscribe-Input {
+        width: 81% !important;
+        padding: 12px 10px 12px 20px !important;
+    }
+
+    .subscribe-btn {
+        display: none;
+    }
+
+    /* COntact Page ---------------------------------------------------- */
+
+    .contact-text-heading {
+        font-size: 2.5rem !important;
+    }
+}
+
+/* ______________________________________________________________________________________________ */
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-sticky {
+        display: none !important;
+    }
+
+    .text-image-container {
+        height: auto !important;
+    }
+
+    .bdr {
+        border: none;
+    }
+
+    .banner-heading-1 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .banner-section {
+        padding: 7rem 0;
+        height: auto;
+    }
+
+    .banner-icon {
+        font-size: 1rem !important;
+    }
+
+    .banner-para {
+        font-size: 1rem !important;
+        text-align: justify;
+        margin-left: .5rem !important;
+    }
+
+    .scroll-image {
+        display: none;
+    }
+
+    .popular-courses {
+        height: auto;
+    }
+
+    .popular-heading {
+        font-size: 1.7rem;
+        text-align: left;
+        margin-top: 3rem;
+    }
+
+    .popular-para {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .card-design_animation:hover {
+        transform: translate(0, -5px);
+    }
+
+    .card-image {
+        width: 100%;
+    }
+
+    .cards {
+        margin-top: 2rem !important;
+    }
+
+    .card-heading {
+        font-size: 1rem !important;
+    }
+
+    .card-heading {
+        font-size: 1.3rem;
+    }
+
+    .teacher-live-heading {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .on-small {
+        width: 100%;
+    }
+
+    .teacher-live-text {
+        font-size: 1rem !important;
+        margin-top: 2rem;
+    }
+
+    .bg-color-number-counter {
+        font-size: 1.3rem;
+    }
+
+    .number-counter-text {
+        font-size: 1.2rem;
+    }
+
+    .brand-heading {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .brand-para-1,
+    .brand-para-2 {
+        font-size: 1rem;
+    }
+
+    .footer-section {
+        padding: 100px 0;
+    }
+
+    .social_icons {
+        gap: 1rem;
+    }
+
+    .useful {
+        margin-left: 0;
+    }
+
+    .cpr {
+        font-size: .7rem;
+    }
+
+    .active::before {
+        left: 60px;
+        top: 18px;
+    }
+
+    .navbar-sticky {
+        display: none;
+    }
+
+    /* About Page */
+
+    .popular-courses {
+        width: 100%;
+        height: auto !important;
+    }
+
+    /* Courses Page */
+
+    .pricing-tag::after {
+        left: 16px !important;
+    }
+}
+
+/* ______________________________________________________________________________________________ */
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-sticky {
+        display: none !important;
+    }
+
+    .card-image {
+        width: auto;
+        margin: 0;
+    }
+
+    .banner-heading-1 {
+        font-size: 2.6rem;
+    }
+
+}
+
+/* ______________________________________________________________________________________________ */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+/* @media (min-width: 576px) and (max-width: 767.98px) {} */
+
+/* ______________________________________________________________________________________________ */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+/* @media (min-width: 1200px) {
+    body {
+        background-color: yellow;
+    }
+} */
