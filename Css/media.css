@@ -1,0 +1,424 @@
+@media only screen and (min-width:320px) and (max-width: 769px) {
+    /* body {
+        background-color: green;
+    } */
+
+    /* Hero section */
+    #brandText {
+        display: none;
+    }
+
+    .heading {
+        font-size: 7vw;
+    }
+
+    .sc-1 p,
+    .sc-1 .btn-primary {
+        text-align: justify;
+    }
+
+    .card-title {
+        font-size: 5vw;
+    }
+
+    .hero_image {
+        margin-top: 2rem;
+    }
+
+    /* MOST POPULAR COURSES. */
+    .card_bg_image .cd_bg,
+    .img-1,
+    .img-2 {
+        display: none;
+    }
+
+    .heading-wd {
+        max-width: 67vw;
+    }
+
+    .heading.heading-wd {
+        font-size: 8vw;
+    }
+
+    .row.mt-5.d-flex.align-items-center {
+        gap: 2rem;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .more {
+        flex-direction: column;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+    }
+
+    /* The best Platform */
+
+    .box-title {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .box-1 {
+        aspect-ratio: 2 / 1;
+    }
+
+    p.sc-3-para.text-center {
+        font-size: 3.7vw;
+    }
+
+    /* Moving text */
+
+    .moving-text h1 {
+        font-size: 15vw;
+    }
+
+    /* Video */
+
+    .content {
+        top: 30%;
+    }
+
+    h3.mt-4 {
+        font-size: 5vw;
+    }
+
+    h4.sm-wd.mt-4 {
+        width: 90%;
+        font-size: 3.1vw;
+    }
+
+    a.mt-4.btn.btn-primary {
+        font-size: 2.5vw;
+    }
+
+    .sc-4 video {
+        position: relative;
+        width: 100%;
+        inset: 0;
+        height: 400px;
+        filter: blur(3px) opacity(.4);
+        object-fit: cover;
+    }
+
+    /* Clients */
+
+    .bdr {
+        border: none;
+    }
+
+    .useful {
+        margin-left: 0;
+    }
+
+    p.number-counter-heading,
+    p.number-counter_heading,
+    p.number-counter-text.counter {
+        font-size: 7vw;
+    }
+
+    /* Footer */
+
+    .for_bg_img {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cpr {
+        font-size: 3.6vw;
+    }
+
+    h1.social_heading {
+        font-size: 6vw;
+    }
+
+    p.social_paragraph.mt-4 {
+        font-size: 4vw;
+    }
+
+    /* Courses Page*/
+
+    .d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+    }
+
+    .text {
+        font-size: 3vw;
+    }
+
+    p.mb-2 {
+        font-size: 4vw;
+    }
+
+    /* Contact Page */
+
+    .row.align-items-center {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* About Page */
+
+    section.sc-1 {
+        margin: 3rem 0;
+    }
+
+    .profile-image {
+        width: 100% !important;
+    }
+
+    p.mb-4.pb-2.mb-md-5.pb-md-0 {
+        font-size: 3vw;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    p.fs-5.justify {
+        font-size: 5vw !important;
+    }
+
+    p.fs-6 {
+        text-align: justify;
+    }
+
+    .heading {
+        font-size: 7vw;
+    }
+
+    .footer-section {
+        margin-top: 0;
+    }
+
+    a.text-white.text-decoration-none,
+    .cpr {
+        font-size: 0.7rem;
+    }
+
+    .profile-image {
+        filter: opacity(1);
+    }
+
+    #follower {
+        display: none;
+    }
+
+    iframe {
+        filter: hue-rotate(45deg) opacity(.6);
+    }
+
+    section.blog,
+    section.blog2 {
+        width: 100%;
+    }
+
+    .blog ol li {
+        padding: 10px 0;
+    }
+
+    .p-text:nth-child(4) {
+        font-size: .9rem;
+        color: rgb(219, 219, 12);
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width: 768px) {
+    .heading {
+        font-size: 6vw;
+    }
+
+    .sc-1 p {
+        font-size: 3vw;
+        text-align: justify;
+    }
+
+    .sc-1 .btn-primary {
+        font-size: 2vw;
+    }
+
+    .row.mt-5.d-flex.align-items-center {
+        justify-content: center;
+    }
+
+    .hidden {
+        display: flex;
+    }
+
+    p.sc-3-para.text-center {
+        font-size: 2vw;
+    }
+
+    .flexwrap {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+        gap: 3vw;
+    }
+
+    .box-1 {
+        aspect-ratio: 4 / 1;
+    }
+
+    .box-width {
+        width: 100%;
+    }
+
+    .box-title {
+        font-size: 2rem;
+    }
+
+    .moving-text h1 {
+        font-size: 11vw;
+    }
+
+    .content {
+        top: 10vw;
+    }
+
+    h4.sm-wd.mt-4 {
+        width: 90%;
+        font-size: 2.6vw;
+    }
+
+    a.mt-4.btn.btn-primary {
+        font-size: 2.2vw;
+    }
+
+    p.number-counter-heading,
+    p.number-counter_heading,
+    .number-counter-text.counter {
+        font-size: 6vw;
+    }
+
+    .cpr {
+        font-size: 2.6vw;
+    }
+
+    section.blog,
+    section.blog2 {
+        width: 100%;
+    }
+
+    .blog ol li {
+        padding: 10px 0;
+    }
+
+    .p-text:nth-child(4) {
+        font-size: .9rem;
+        color: rgb(219, 219, 12);
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1200px) {
+    .heading {
+        font-size: 7vw;
+    }
+
+    .heading-wd {
+        font-size: 5vw;
+    }
+
+    .sc-1 p {
+        font-size: 3vw;
+        text-align: justify;
+    }
+
+    .sc-1 .btn-primary {
+        font-size: 2vw;
+    }
+
+    .row.mt-5.d-flex.align-items-center {
+        justify-content: center;
+    }
+
+    .hidden {
+        display: flex;
+    }
+
+    p.sc-3-para.text-center {
+        font-size: 2vw;
+    }
+
+    .flexwrap {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+        gap: 3vw;
+    }
+
+    .box-1 {
+        aspect-ratio: 4 / 1;
+    }
+
+    .box-width {
+        width: 100%;
+    }
+
+    .box-title {
+        font-size: 2rem;
+    }
+
+    .moving-text h1 {
+        font-size: 11vw;
+    }
+
+    .content {
+        top: 10vw;
+    }
+
+    h4.sm-wd.mt-4 {
+        width: 90%;
+        font-size: 2.6vw;
+    }
+
+    a.mt-4.btn.btn-primary {
+        font-size: 2.2vw;
+    }
+
+    p.number-counter-heading,
+    p.number-counter_heading,
+    .number-counter-text.counter {
+        font-size: 6vw;
+    }
+
+    .cpr {
+        font-size: 2.6vw;
+    }
+
+    section.blog,
+    section.blog2 {
+        width: 100%;
+    }
+
+    .blog ol li {
+        padding: 10px 0;
+    }
+
+    .p-text:nth-child(4) {
+        font-size: .9rem;
+        color: rgb(219, 219, 12);
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
