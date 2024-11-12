@@ -14,6 +14,9 @@ This is a static website built using HTML, CSS, and JavaScript. The website feat
 - **CSS**: Styling and layout.
 - **JavaScript**: Interactive elements and dynamic content.
 - **GitHub Pages**: Hosting the website for easy access.
+- 
+# View Live
+https://skilldevloper.github.io/Skill-Developer/
 
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository, create a branch, and submit a pull request.
@@ -27,6 +30,3 @@ Steps to Contribute:
 - Create a pull request.
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-Thanks to [insert any libraries/tools or people you want to acknowledge].
