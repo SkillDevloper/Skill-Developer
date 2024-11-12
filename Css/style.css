@@ -802,3 +802,7 @@ section.blog2 ol li a:hover {
   background: #240229;
   border-radius: 50%;
 }
+
+h3 .p-text:nth-child(4){
+  display:none;
+}
