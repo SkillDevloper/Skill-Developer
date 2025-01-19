@@ -102,3 +102,27 @@ window.addEventListener("load", function () {
   load.style.display = "none";
   // console.log("Page loaded");
 });
+
+// Alrt Message ++++++++++++++++++++++++++++++++++++++++++++++
+function showNotification() {
+  setTimeout(function () {
+    document.getElementById('notificationBox').style.display = 'block';
+    document.body.classList.add('blur-content');
+
+    var overlay = document.createElement('div');
+    overlay.classList.add('blur-overlay');
+    document.body.appendChild(overlay);
+  }, 3000);
+}
+
+function closeNotification() {
+  document.getElementById('notificationBox').style.display = 'none';
+  document.body.classList.remove('blur-content');
+  var overlay = document.querySelector('.blur-overlay');
+  if (overlay) {
+    overlay.remove();
+  }
+}
+window.onload = function () {
+  showNotification();
+}
