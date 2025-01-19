@@ -18,15 +18,5 @@ This is a static website built using HTML, CSS, and JavaScript. The website feat
 # View Live
 https://skilldevloper.github.io/Skill-Developer/
 
-## Contributing
-If you'd like to contribute to this project, feel free to fork the repository, create a branch, and submit a pull request.
-
-Steps to Contribute:
-- Fork the repository.
-- Create a new branch (git checkout -b feature-name).
-- Make your changes.
-- Commit your changes (git commit -am 'Add feature').
-- Push to the branch (git push origin feature-name).
-- Create a pull request.
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
