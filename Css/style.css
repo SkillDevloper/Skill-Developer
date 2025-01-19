@@ -806,3 +806,108 @@ section.blog2 ol li a:hover {
 h3 .p-text:nth-child(4){
   display:none;
 }
+/* Custom Notification */
+
+.custom-notification {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  width: 35%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-notification img {
+  width: 100%;
+}
+
+.custom-notification button {
+  padding: 8px 15px;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.custom-notification button:hover {
+  background-color: var(--secondary);
+}
+
+body.blur-content {
+  position: relative;
+}
+
+body.blur-content .blur-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 768px) {
+  .custom-notification {
+    width: 70%;
+    padding: 5px;
+  }
+
+  .close-btn {
+    font-size: 16px;
+  }
+
+  .custom-notification button {
+    padding: 10px 20px;
+  }
+
+  .custom-notification img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .custom-notification {
+    width: 90%;
+    padding: 3px;
+  }
+
+  .close-btn {
+    font-size: 14px;
+  }
+
+  .custom-notification button {
+    padding: 2px 10px;
+    top: 20px;
+    right: 20px;
+  }
+
+  .custom-notification img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
