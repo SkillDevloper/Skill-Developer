@@ -14,7 +14,7 @@ This is a static website built using HTML, CSS, and JavaScript. The website feat
 - **CSS**: Styling and layout.
 - **JavaScript**: Interactive elements and dynamic content.
 - **GitHub Pages**: Hosting the website for easy access.
-- 
+
 # View Live
 https://skilldevloper.github.io/Skill-Developer/
 
